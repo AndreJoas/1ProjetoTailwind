@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.inputForm{
+    @apply border border-gray-500 rounded-lg px-4;
+    @apply py-3;
+}
+
+.forLabel{
+    @apply font-semibold mb-2 tracking-wide;
+}
+.card{
+    @apply w-full bg-center rounded-xl mb-6 p-8 ;
+    height: 330px;
+    background-image: url("https://i.ibb.co/dWKHTRv/01.jpg");
+}
+
+.info{
+    @apply bg-white bg-opacity-30 w-full h-full rounded-3xl p-8;
+    @apply border border-white text-black;
+
+}
